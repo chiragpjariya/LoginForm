@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react'
-import LoginImg from 'https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714435200&semt=ais'
+import LoginImg from './img/DataShow.avif'
 import Context from '../context/Context'
 
 function Login() {
@@ -36,7 +36,7 @@ function Login() {
                 backgroundRepeat: `no-repeat`,
                 backgroundSize: `cover`
             }}  >
-                <div className="container flex flex-col h-auto p-4 rounded-[20px] w-[500px] items-center text-white   bg-white/20 shadow-lg ring-1 ring-black/5">
+                <div className="container flex flex-col h-auto p-4 rounded-[20px] w-[500px] items-center text-black   bg-white/20 shadow-lg ring-1 ring-black/5">
                     <div className="input-fields flex flex-col w-[100%] gap-y-[20px]" >
 
                         <div className="name  h-[80px] w-[100%] flex flex-col justify-around p-[5px]  rounded-t-[10px] bg-transparent" >
